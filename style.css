@@ -1,0 +1,51 @@
+* {
+	background-color: #fff;
+	box-sizing: border-box;
+
+}
+
+h1 {
+	color: rgb(24, 206, 42);
+	text-align: center;
+}
+
+.topnav {
+	text-align: center;
+}
+
+.insidenav,
+a {
+	text-align: end;
+	font-size: large;
+	color: black;
+	text-decoration: none;
+}
+
+input {
+	font-size: larger;
+	width: 900px;
+}
+
+/* Create four equal columns that floats next to each other */
+
+
+button{
+	font-size: 20px;
+}
+.column {
+	float: left;
+	width: 25%;
+	padding: 5px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgb(136, 239, 146);
+	/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
